@@ -53,7 +53,7 @@ export class InnerSlider extends React.Component {
     }
   };
   componentWillMount = () => {
-    this.ssrInit();
+    //this.ssrInit();
     this.props.onInit && this.props.onInit();
     if (this.props.lazyLoad) {
       let slidesToLoad = getOnDemandLazySlides({
