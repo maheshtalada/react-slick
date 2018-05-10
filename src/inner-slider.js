@@ -719,7 +719,7 @@ export class InnerSlider extends React.Component {
       innerSliderProps = { className };
     }
     return (
-      <div>
+      <div className={this.props.wrapperClassName}>
         <div {...innerSliderProps}>
           {!this.props.unslick ? prevArrow : ""}
           <div ref={this.listRefHandler} {...listProps}>
