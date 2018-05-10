@@ -5,12 +5,10 @@ export default class MultipleRows extends Component {
   render() {
     const settings = {
       className: "center",
-      centerMode: true,
-      infinite: true,
       centerPadding: "60px",
-      slidesToShow: 3,
       speed: 500,
       rows: 2,
+      infinite: false,
       slidesPerRow: 2
     };
     return (
