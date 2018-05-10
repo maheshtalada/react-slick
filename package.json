@@ -4,6 +4,7 @@
   "description": " React port of slick carousel",
   "main": "./lib",
   "files": ["dist", "lib"],
+  "private": true,
   "scripts": {
     "start": "gulp server",
     "build": "gulp clean && gulp sass && gulp copy && webpack",
